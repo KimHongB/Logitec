@@ -1,0 +1,482 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  z-index: 1;
+  width: 100%;
+}
+#wrap #main #section1 {
+  width: 100%;
+  max-width: 1497px;
+  margin: 0 auto;
+  background: url(../img/brio-300-h390-hpb-white-desktop.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#wrap #main #section1 .container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#wrap #main #section1 .container .gap {
+  padding: 0 40px;
+  margin: 0 108.5px;
+}
+#wrap #main #section1 .container .gap .title-bottom {
+  z-index: 2;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease-in-out;
+}
+#wrap #main #section1 .container .gap .title-bottom .left img {
+  width: 118px;
+  cursor: pointer;
+}
+#wrap #main #section1 .container .gap .title-bottom .center ul {
+  display: flex;
+}
+#wrap #main #section1 .container .gap .title-bottom .center ul li a {
+  width: 100%;
+  padding: 9px 20px;
+  font-size: 15px;
+  font-weight: 800;
+  color: #2f3132;
+  border-radius: 18px;
+}
+#wrap #main #section1 .container .gap .title-bottom .center ul li a:hover {
+  background: #fff;
+  transition: all 0.2s;
+}
+#wrap #main #section1 .container .gap .title-bottom .right ul {
+  display: flex;
+}
+#wrap #main #section1 .container .gap .title-bottom .right ul li {
+  width: 50px;
+}
+#wrap #main #section1 .container .gap .title-bottom .right ul li a {
+  text-align: center;
+}
+#wrap #main #section1 .container .gap .title-bottom .right ul li i {
+  width: 50px;
+}
+#wrap #main #section1 .container .gap .title-bottom.on {
+  z-index: 4;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  max-width: 1497px;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  padding: 0 148.5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#wrap #main #section1 .container .gap .text-box {
+  padding: 70px 0 0 0;
+  vertical-align: middle;
+}
+#wrap #main #section1 .container .gap .text-box h1 {
+  font-size: 70px;
+  font-weight: 300;
+  color: #fff;
+}
+#wrap #main #section1 .container .gap .text-box h2 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 27.5px;
+}
+#wrap #main #section1 .container .gap .btn-box {
+  padding: 80px 0 100px 0;
+  margin-left: -12px;
+}
+#wrap #main #section1 .container .gap .btn-box ul {
+  display: flex;
+}
+#wrap #main #section1 .container .gap .btn-box ul button {
+  background: #2f3132;
+  margin: 0 0 12px 12px;
+  padding: 18px 36px;
+  cursor: pointer;
+}
+#wrap #main #section1 .container .gap .btn-box ul button span {
+  width: 122.227px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #fff;
+}
+#wrap #main #section1 .container .gap .btn-box ul button:hover {
+  background: 0;
+  color: #2f3132;
+  border: 1px solid #2f3132;
+  transition: all 0.15s;
+}
+#wrap #main #section2 {
+  width: 100%;
+  max-width: 1497px;
+  margin: 0 auto;
+}
+#wrap #main #section2 .container {
+  margin: 80px 108.5px 0 108.5px;
+  padding: 0 40px;
+}
+#wrap #main #section2 .container .gap .content > div {
+  display: flex;
+}
+#wrap #main #section2 .container .gap .content > div ul {
+  margin: 0 20px 30px 0;
+}
+#wrap #main #section2 .container .gap .content > div ul li img {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#wrap #main #section2 .container .gap .content > div ul li h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  line-height: 21.3334px;
+  cursor: pointer;
+}
+#wrap #main #section2 .container .gap .content > div ul li h2:hover {
+  text-decoration: underline;
+}
+#wrap #main #section2 .container .gap .content > div ul li p {
+  margin-bottom: 16px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+}
+#wrap #main #section2 .container .gap .content > div ul li span {
+  color: #2f3132;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  cursor: pointer;
+}
+#wrap #main #section2 .container .gap .content > div ul li span:hover {
+  text-decoration: underline;
+}
+#wrap #main #section3 {
+  width: 100%;
+  max-width: 1497px;
+  margin: 0 auto;
+  position: relative;
+}
+#wrap #main #section3 .container {
+  width: 100%;
+  padding: 80px 0;
+  position: relative;
+}
+#wrap #main #section3 .container .slide-container {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+}
+#wrap #main #section3 .container .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap {
+  position: relative;
+  width: 333.33%;
+  display: flex;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide1 {
+  margin: 0 101px;
+  display: block;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide1 > .gap {
+  position: relative;
+  width: 1200px;
+  height: 675px;
+  padding: 0 40px;
+  margin: 0;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide1 > .gap .img-box1 {
+  background-image: url("../img/desktop_grey-mice-and-keyboards (1).jpeg");
+  background-size: cover;
+  position: relative;
+  width: 793.328px;
+  height: 443.328px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide1 > .gap .img-box1 p {
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  padding: 0 20px;
+  color: #2f3132;
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide1 > .gap .img-box2 {
+  position: relative;
+  background-image: url("../img/desktop_grey-headsets.jpeg");
+  width: 386.672px;
+  height: 675px;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide1 > .gap .img-box2 p {
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  padding: 0 20px;
+  color: #2f3132;
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide1 > .gap .img-box3 {
+  width: 733.32px;
+  height: 211.637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide1 > .gap .img-box3 p {
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  padding: 0 20px;
+  color: #2f3132;
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide1 > .gap .img-box3 h5 {
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  padding: 0 20px;
+  color: #2f3132;
+  position: absolute;
+  right: 13%;
+  top: 23%;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide2 {
+  width: 100%;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide2 .gap {
+  position: relative;
+  width: 1200px;
+  height: 675px;
+  display: flex;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide2 .gap .img-box4 {
+  display: flex;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide2 .gap .img-box4 > img {
+  width: 386.656px;
+  height: 675px;
+  position: relative;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide2 .gap .img-box4 p {
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  padding: 0 20px;
+  color: #2f3132;
+  position: absolute;
+  bottom: 10%;
+  left: 12%;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide2 .gap .img-box4 h3 {
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  padding: 0 20px;
+  color: #2f3132;
+  position: absolute;
+  top: 10%;
+  right: 44%;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide2 .gap .img-box5 {
+  width: 386.656px;
+  height: 675px;
+  display: block;
+  justify-content: space-around;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide2 .gap .img-box5 img {
+  width: 386.672px;
+  height: 211.656px;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide3 {
+  width: 100%;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide3 .gap {
+  width: 1200px;
+  height: 675px;
+  display: flex;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide3 .gap .img-box6 {
+  width: 386.656px;
+  margin-right: 20px;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide3 .gap .img-box6 img {
+  height: 211.656px;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide3 .gap .img-box6 img:nth-child(2) {
+  height: 443.344px;
+  margin: 20px 0;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide3 .gap .img-box7 {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide3 .gap .img-box7 img:nth-child(1) {
+  width: 793.344px;
+  height: 443.328px;
+  position: absolute;
+  top: 0;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide3 .gap .img-box7 img:nth-child(2) {
+  width: 386.672px;
+  height: 211.672px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#wrap #main #section3 .container .slide-container .slide-view .slide-wrap .slide.slide3 .gap .img-box7 img:nth-child(3) {
+  width: 386.672px;
+  height: 211.672px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#wrap #main #section3 .next-btn {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 108px;
+  height: 108px;
+}
+#wrap #main #section3 .prev-btn {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+#wrap #main #section4 {
+  width: 100%;
+}
+#wrap #main #section4 .container {
+  width: 100%;
+}
+#wrap #main #section4 .container .slide-container {
+  width: 100%;
+}
+#wrap #main #section4 .container .slide-container .slide-view {
+  width: 100%;
+}
+#wrap #main #section4 .container .slide-container .slide-view .slide-wrap {
+  width: 700%;
+  display: flex;
+}
+#wrap #main #section4 .container .slide-container .slide-view .slide-wrap .slide {
+  z-index: 2;
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section4 .container .slide-container .slide-view .slide-wrap .slide img {
+  width: 100%;
+}
+#wrap #main #section4 .container .slide-container .slide-view .slide-wrap .slide .text-box {
+  z-index: 2;
+  position: absolute;
+  top: 25%;
+  left: 31%;
+  text-align: center;
+}
+#wrap #main #section4 .container .slide-container .slide-view .slide-wrap .slide .text-box h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #fff;
+  margin-bottom: 27px;
+}
+#wrap #main #section4 .container .slide-container .slide-view .slide-wrap .slide .text-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#wrap #main #section4 .container .slide-container .slide-view .slide-wrap .slide .text-box button {
+  padding: 18px 36px;
+  background: #fff;
+  color: #2f3132;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  border-style: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+#wrap #main #section4 .container .slide-container .slide-view .slide-wrap .slide .text-box button:hover {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+#wrap #main.rap2 {
+  background: url(../img/future-positive-challenge-desktop.jpg) no-repeat 50% 50%;
+}
+#wrap #main.rap2 p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#wrap #main.rap3 {
+  background: url(../img/climate-positive-desk.jpeg) no-repeat 50% 50%;
+}
+#wrap #main.rap3 p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 23px;
+  color: #fff;
+}
+#wrap #main.rap4 {
+  background: url(../img/carbon-methodology-desktop.png) no-repeat 50% 50%;
+}
+#wrap #main.rap4 p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 23px;
+  color: #fff;
+}
+#wrap #main.rap5 {
+  background: url(../img/bg-logicares-desktop.jpg) no-repeat 50% 50%;
+}
+#wrap #main.rap5 p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 23px;
+  color: #fff;
+}
+#wrap #main.rap6 {
+  background: url(../img/bg-design-desktop.jpg) no-repeat 50% 50%;
+}
+#wrap #main.rap7 {
+  background: url(../img/bg-about-desktop.jpg) no-repeat 50% 50%;
+}

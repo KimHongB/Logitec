@@ -1,0 +1,47 @@
+#wrap {
+  width: 100%;
+}
+#wrap #header {
+  width: 100%;
+}
+#wrap #header .container {
+  width: 100%;
+  max-width: 1497px;
+  margin: 0 auto;
+}
+#wrap #header .container .gap {
+  margin: 0 108.5px;
+  padding: 0 40px;
+}
+#wrap #header .container .gap .title-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #header .container .gap .title-top .title {
+  width: 96.867px;
+  padding: 15px 0;
+  cursor: pointer;
+}
+#wrap #header .container .gap .title-top .title h2 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  color: #697172;
+}
+#wrap #header .container .gap .title-top .content {
+  padding: 15px 0;
+}
+#wrap #header .container .gap .title-top .content h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #697172;
+  text-align: center;
+}
+#wrap #header .container .gap .title-top .content h2 i {
+  margin-right: 6px;
+}
+#wrap #header .container .gap .title-top .content h2:hover {
+  text-decoration: underline;
+}

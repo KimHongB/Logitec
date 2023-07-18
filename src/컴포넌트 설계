@@ -1,0 +1,12 @@
+컴포넌트 설계
+
+components 폴더
+    WrapComponent.jsx
+
+        wrap폴더
+        HeaderComponent.jsx
+        MainComponent.jsx
+        FooterComponent.jsx
+
+
+로지텍 https://www.logitech.com/ko-kr

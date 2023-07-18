@@ -1,0 +1,50 @@
+#wrap {
+    width: 100%;
+    #header {
+        width: 100%;
+        .container {
+            width: 100%;
+            max-width: 1497px;
+            margin: 0 auto;
+            .gap {
+                margin: 0 108.500px;
+                padding: 0 40px;
+                .title-top {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .title { 
+                        width: 96.867px;
+                        padding: 15px 0;
+                        cursor: pointer;
+                        h2 {
+                            font-size: 14px;
+                            font-weight: 300;
+                            line-height: 14px;
+                            color: #697172;
+                        }
+                    }
+                    .content {
+                        padding: 15px 0;
+               
+                        h2 {
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 14px;
+                            color: #697172;
+                            text-align: center;
+                            i {
+                                margin-right: 6px;
+                            }
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,170 @@
+#wrap {
+    width: 100%;
+    #footer {
+        width: 100%;
+        height: 700.500px;
+        max-width: 1497px;
+        margin: 0 auto;
+        background: #252a2c;
+        .container {
+            width: 100%;
+            padding: 100px 0 20px 0;
+            .gap {
+                padding: 0 40px;
+                margin: 0 108.500px;
+                .content {
+                    width: 100%;
+                    .foot1 {
+                        width: 100%;
+                        .list-box {
+                            width: 100%;
+                            display: flex;
+                            ul {
+                                width: 25%;
+                                li {
+                                    padding: 0 101.664px 30px 0;
+                                    margin-right: 20px;
+                                    h2 {
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 14px;
+                                    color: #fff;
+                                    }
+                                    a {
+                                        margin-bottom: 20px;
+                                        font-size: 14px;
+                                        font-weight: 300;
+                                        line-height: 18px;
+                                        color: #c3c6c8;
+                                        &:hover {
+                                        border-bottom: 1px solid #c3c6c8;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .foot2 {
+                        padding-top: 30px;
+                        border-top: 1px solid rgba(255,255,255,0.3);
+                        display: flex;
+                        justify-content: space-between;
+                        .left {
+                            align-items: start;
+                            a {
+                                margin-right: 24px;
+                                img {
+                                    width: 24px;
+                                }
+                            }
+                        }
+                        .right {
+                            align-items: flex-end;
+                            .email {
+                                input {
+                                    height: 45px;
+                                    padding: 10px 20px;
+                                    font-size: 16px;
+                                    font-weight: 300;
+                                    border: 0;
+                                }
+                                button {
+                                    width: 45px;
+                                    height: 45px;
+                                    background-color: #dcfd00;
+                                    border-style: none;
+                                    i {
+                                        font-size: 17px;
+                                    }
+                                }
+                            }
+                            .check {
+                                display: flex;
+                                input {
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                                span {
+                                    padding-left: 14px;
+                                    a{
+                                        color: #c3c6c8;
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        line-height: 20px;
+                                        i {
+                                            font-weight: 400;
+                                            text-decoration: underline;
+                                            &:hover {
+                                                text-decoration: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .foot3 {
+                        padding: 30px 0 30px 0;
+                        position: relative;
+                        display: flex;
+                        span {
+                            margin: 0 20px 0 0;
+                            padding-right: 12px;
+                            color: #c3c6c8;
+                            font-size: 14px ;
+                            font-weight: 300;
+                            line-height: 18px;
+                        }
+                        a {
+                            font-size: 14px ;
+                            font-weight: 300;
+                            line-height: 18px;
+                            color: #c3c6c8;
+                            border-right: 1px solid #c3c6c8;
+                            padding: 0 12px;
+                            &:nth-child(6) {
+                                border: 0;
+                            }
+                            &:last-child {
+                                border: 0;
+                            }
+                            
+                        }
+                        h2 {
+                            position: absolute;
+                            right: 0;
+                            font-size: 14px;
+                            font-weight: 300;
+                            line-height: 22px;
+                            color: #c3c6c8;
+                            i {
+                                padding-right: 6px;
+                            }
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                    .foot4 {
+                        padding: 20px 0;
+                        color: #c3c6c8;
+                        font-size: 13px;
+                        font-weight: 300;
+                        line-height: 18px;
+                        border-top: 1px solid rgba(255, 255, 255, 0.3);
+                        a {
+                            font-weight: 700;
+                            color: #c3c6c8;
+                            font-size: 13px;
+                            line-height: 18px;
+                            text-decoration: underline;
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
